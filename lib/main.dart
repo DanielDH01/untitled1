@@ -147,6 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
           if (!regExp.hasMatch(value!)) {
             return 'Email is not valid';
           } else {
+            print('test');
             return null;
           }
         },
