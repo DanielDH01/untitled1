@@ -166,6 +166,7 @@ class _MyHomePageState extends State<MyHomePage> {
           if (value!.length < 7) {
             return 'Password must be at least 7 characters long';
           } else {
+            print('test');
             return null;
           }
         },
